@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+
+
+@theme  {
+    --font-sans: 'Arimo', sans-serif;
+
+    --color-bg-purple: #4F39F6;
+    --color-border-1:#E2E8F0;
+    --color-text-color-1: #0F172B;
+    --color-text-color-2:#45556C;
+    --shadow-header-shadow: 0 10px 15px -3px #E2E8F0, 0 4px 6px -4px #E2E8F0;
+    --shadow-badge-shadow:  0 10px 15px -3px rgba(97, 95, 255, 0.40), 0 4px 6px -4px rgba(97, 95, 255, 0.40);
+}
