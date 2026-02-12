@@ -18,3 +18,18 @@
     --shadow-header-shadow: 0 10px 15px -3px #E2E8F0, 0 4px 6px -4px #E2E8F0;
     --shadow-badge-shadow:  0 10px 15px -3px rgba(97, 95, 255, 0.40), 0 4px 6px -4px rgba(97, 95, 255, 0.40);
 }
+html, body {
+    height: 100%;
+}
+
+
+html {
+    scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+}

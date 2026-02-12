@@ -31,21 +31,22 @@ export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,
 
     return(
 
-            <Card className="flex flex-col  border-border-1 shadow-header-shadow mx-auto w-md gap-6 px-2">
+            <Card className="flex flex-col rounded-3xl border-border-1 shadow-header-shadow mx-auto 2xl:w-xl  w-md gap-2 2xl:gap-6 px-2">
                 <CardHeader>
-                    <CardTitle className="text-xl" >{title}</CardTitle>
-                    <CardDescription className="text-text-color-3">{subtitle}</CardDescription>
+                    <CardTitle className="text-xl 2xl:text-2xl" >{title}</CardTitle>
+                    <CardDescription className="text-text-color-3 2xl:text-md">{subtitle}</CardDescription>
                 </CardHeader>
                 <CardContent >
-                    <form action="" className="flex flex-col gap-3">
+                    <form action="" className="flex flex-col gap-3 2xl:gap-6">
                         {campos.map((campo) => (
 
                             <div key={campo.name} >
-                                <Label className="py-2 text-text-color-5">
+                                <Label className="py-2 text-text-color-5 ">
 
                                     {campo.label}
                                 </Label>
                                 <Input
+                                    className="2xl:h-13 2xl:rounded-xl"
                                     id={campo.name}
                                     name={campo.name}
                                     type={campo.type}
@@ -55,12 +56,12 @@ export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,
 
                         ))}
 
-                        <Button type="submit" >
+                        <Button type="submit" className="2xl:h-13 2xl:text-lg 2xl:rounded-xl" >
                             {buttonLabel}
                         </Button>
 
                     </form>
-                    <CardFooter className="flex text-sm  justify-center gap-2 py-2 ">
+                    <CardFooter className="flex text-sm justify-center gap-2 py-2 ">
                         <p className="text-text-color-3">{footerText} </p><a href={link} className="text-bg-purple">{linkText}</a>
                     </CardFooter>
                 </CardContent>
