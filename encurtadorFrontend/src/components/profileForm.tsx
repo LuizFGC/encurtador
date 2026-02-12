@@ -22,10 +22,15 @@ import {
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
 
-export default function ProfileForm(){
+interface ProfileFormProps {
+    UserName: string
+    UserEmail: string
+}
+
+export default function ProfileForm({UserName, UserEmail}:ProfileFormProps) {
 
     return (
-        <Card className="flex flex-col items-center mx-auto max-w-3xl px-10 pt-10 pb-[1px] border border-border-1 shadow-header-shadow
+        <Card className="flex flex-col items-center mx-auto max-w-4xl px-10 pt-10 pb-[1px] border border-border-1 shadow-header-shadow
   ">
             <CardHeader className="flex items-center gap-3 w-full gap-4 ">
                 <div>
@@ -36,10 +41,10 @@ export default function ProfileForm(){
                     </Avatar>
                 </div>
                 <div>
-                    <CardTitle className="text-2xl text-text-color-1"> Luiz Filipe</CardTitle>
+                    <CardTitle className="text-2xl text-text-color-1"> {UserName}</CardTitle>
                     <CardDescription className="flex items-center gap-1 text-xs text-text-color-3">
                         <Icon iconNode={Mail} className="w-4 h-4"/>
-                        luizfkz3@gmail.com
+                        {UserEmail}
                     </CardDescription>
                 </div>
             </CardHeader>
