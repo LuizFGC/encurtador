@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c876d5ba-7898-4515-9d32-309dc79ae0ef" name="Changes" comment="" />
+    <list default="true" id="c876d5ba-7898-4515-9d32-309dc79ae0ef" name="Changes" comment="feat - finalizando pagina de perfil">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/pages/encurtar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/pages/encurtar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +31,12 @@
         <option value="TypeScript JSX File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5df54e12-033f-4393-936c-96de4c77aaba" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$USER_HOME$/.config/herd-lite/bin/php.exe">
     <include_path>
@@ -263,21 +278,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/lfcandido/PhpStormProjects/encurtadort&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/lfcandido/PhpStormProjects/encurtadort",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu\home\lfcandido\PhpStormProjects\encurtadort\encurtadorFrontend\src\components" />
@@ -292,8 +310,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.27397.112" />
-        <option value="bundled-php-predefined-a98d8de5180a-b35feea871ed-com.jetbrains.php.sharedIndexes-PS-252.27397.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -314,11 +331,58 @@
       <workItem from="1770815250589" duration="1555000" />
       <workItem from="1770816853854" duration="5129000" />
       <workItem from="1770822016314" duration="76000" />
-      <workItem from="1770823314045" duration="8053000" />
+      <workItem from="1770823314045" duration="17482000" />
+      <workItem from="1770893206078" duration="4905000" />
+      <workItem from="1770898141918" duration="2159000" />
+      <workItem from="1770906368185" duration="630000" />
+      <workItem from="1770918982833" duration="9069000" />
+      <workItem from="1770981071103" duration="57000" />
+      <workItem from="1770981140808" duration="3478000" />
     </task>
+    <task id="LOCAL-00001" summary="feat - adicionando Componentes LinkCard e AuthCard">
+      <option name="closed" value="true" />
+      <created>1770841845565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770841845565</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat - alteracoes nos componentes button e input">
+      <option name="closed" value="true" />
+      <created>1770841864341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770841864341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat - Adicinando novas paginas e componentes: &#10;-Login&#10;-Registro&#10;-Perfil &#10;-Dashboard">
+      <option name="closed" value="true" />
+      <created>1770926679626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770926679626</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat - finalizando pagina de perfil">
+      <option name="closed" value="true" />
+      <created>1770927909757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770927909757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="feat - adicionando Componentes LinkCard e AuthCard" />
+    <MESSAGE value="feat - alteracoes nos componentes button e input" />
+    <MESSAGE value="feat - Adicinando novas paginas e componentes: &#10;-Login&#10;-Registro&#10;-Perfil &#10;-Dashboard" />
+    <MESSAGE value="feat - finalizando pagina de perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat - finalizando pagina de perfil" />
   </component>
 </project>

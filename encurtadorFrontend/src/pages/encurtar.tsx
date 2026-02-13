@@ -70,8 +70,6 @@ export default function Encurtar({Links}: EncurtarProps) {
                     </div>
                 </div>
 
-
-
             </div>
         </>
     )

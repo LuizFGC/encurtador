@@ -3,6 +3,10 @@ import AuthHeader from '@/components/AuthHeader'
 
 export default function Registro() {
 
+
+
+
+
     return (
         <>
         <div className="flex flex-col 2xl:gap-4 gap-0 items-center  w-full h-screen 2xl:py-10  ">
