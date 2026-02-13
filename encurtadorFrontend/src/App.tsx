@@ -3,19 +3,20 @@ import Login from "@/pages/login";
 import Registro from "@/pages/registro";
 import Perfil from "@/pages/perfil";
 import Encurtar from "@/pages/encurtar";
-import { ProtectedRoute } from "@/components/ProtectedRoute";
+
+
+
 
 export default function App() {
-    const Auth = true;
+
+
 
     return (
         <BrowserRouter>
             <Routes>
 
                 <Route path="/" element={<Login />} />
-
-                <Route element={<ProtectedRoute isAllowed={Auth} />}>
-                    <Route path="/registro" element={<Registro />} />
+                <Route path="/registro" element={<Registro />} />
 
                     <Route
                         path="/perfil"
@@ -59,7 +60,6 @@ export default function App() {
                             />
                         }
                     />
-                </Route>
             </Routes>
         </BrowserRouter>
     );

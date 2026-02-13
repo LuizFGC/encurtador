@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c876d5ba-7898-4515-9d32-309dc79ae0ef" name="Changes" comment="feat - finalizando pagina de perfil">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c876d5ba-7898-4515-9d32-309dc79ae0ef" name="Changes" comment="feat - Adicionando roteamento das paginas no front-end com react-router">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/pages/encurtar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/pages/encurtar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/components/AuthCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/components/AuthCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/pages/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encurtadorFrontend/src/pages/registro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/encurtadorFrontend/src/pages/registro.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="PHP File" />
         <option value="package.json" />
         <option value="TypeScript JSX File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -310,7 +307,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.27397.112" />
+        <option value="bundled-php-predefined-a98d8de5180a-b35feea871ed-com.jetbrains.php.sharedIndexes-PS-252.27397.112" />
       </set>
     </attachedChunks>
   </component>
@@ -337,7 +335,8 @@
       <workItem from="1770906368185" duration="630000" />
       <workItem from="1770918982833" duration="9069000" />
       <workItem from="1770981071103" duration="57000" />
-      <workItem from="1770981140808" duration="3478000" />
+      <workItem from="1770981140808" duration="4961000" />
+      <workItem from="1770986270295" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="feat - adicionando Componentes LinkCard e AuthCard">
       <option name="closed" value="true" />
@@ -371,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770927909757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat - Adicionando roteamento das paginas no front-end com react-router">
+      <option name="closed" value="true" />
+      <created>1770984840349</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770984840349</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +390,7 @@
     <MESSAGE value="feat - alteracoes nos componentes button e input" />
     <MESSAGE value="feat - Adicinando novas paginas e componentes: &#10;-Login&#10;-Registro&#10;-Perfil &#10;-Dashboard" />
     <MESSAGE value="feat - finalizando pagina de perfil" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat - finalizando pagina de perfil" />
+    <MESSAGE value="feat - Adicionando roteamento das paginas no front-end com react-router" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat - Adicionando roteamento das paginas no front-end com react-router" />
   </component>
 </project>

@@ -15,6 +15,9 @@ interface Field {
         label: string;
         type?: React.HTMLInputTypeAttribute;
         placeholder?: string;
+        value: string;
+        onChange:  React.ChangeEventHandler<HTMLInputElement>;
+        error?: string[];
 
 }
 interface AuthCardProps{
@@ -25,9 +28,10 @@ interface AuthCardProps{
     footerText?: string
     linkText?: string
     link?: string
+    submit: React.FormEventHandler<HTMLFormElement>
 }
 
-export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,link, footerText}:AuthCardProps){
+export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,link, footerText, submit,}:AuthCardProps){
 
     return(
 
@@ -37,7 +41,7 @@ export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,
                     <CardDescription className="text-text-color-3 2xl:text-md">{subtitle}</CardDescription>
                 </CardHeader>
                 <CardContent >
-                    <form action="" className="flex flex-col gap-3 2xl:gap-6">
+                    <form onSubmit={submit} className="flex flex-col gap-3 2xl:gap-6">
                         {campos.map((campo) => (
 
                             <div key={campo.name} >
@@ -51,7 +55,14 @@ export default function AuthCard({title, subtitle, campos, buttonLabel,linkText,
                                     name={campo.name}
                                     type={campo.type}
                                     placeholder={campo.placeholder}
+                                    value={campo.value}
+                                    onChange={campo.onChange}
                                 />
+                                {campo.error && (
+                                    <p className="text-red-500 text-xs">
+                                        {campo.error[0]}
+                                    </p>
+                                )}
                             </div>
 
                         ))}
